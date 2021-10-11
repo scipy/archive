@@ -10,3 +10,11 @@ Logos and other SciPy branding content.
 ## `community_meetings`
 
 Rough notes taken during community calls.
+
+## `presentation_resources`
+
+Resources to prepare a presentation and past presentations.
+
+## `sprints`
+
+Resources used to make a sprint.

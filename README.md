@@ -15,6 +15,11 @@ Rough notes taken during community calls.
 
 Resources to prepare a presentation and past presentations.
 
+## `proposals`
+
+Proposals for grant funding, as well as proposals to use SciPy's
+available project funds for something.
+
 ## `sprints`
 
 Resources used to make a sprint.

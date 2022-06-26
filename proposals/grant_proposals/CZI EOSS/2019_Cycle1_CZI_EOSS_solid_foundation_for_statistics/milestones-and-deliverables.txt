@@ -1,0 +1,44 @@
+Support for other developers (as explained in 2.2 of the proposal) will be
+ongoing, to ensure that the number of open issues for SciPy statistics
+remains below the baseline established at the start of the project.
+
+The following table is our plan for the new features to be added to SciPy.
+The schedule is based on a start date of December 2, 2019.
+
+The Target Date is the date by which we will have submitted a feature-complete
+pull request with the implementation, unit tests, benchmarks, and documentation.
+We anticipate most pull requests will be merged within two weeks of the target
+date, after review by other SciPy developers.  The merged pull requests are
+the software deliverables for the project.
+
+Target Date - Deliverable
+ 12/16/2019 - 3.3.5 Noncentral hypergeometric distributions
+ 12/23/2019 - 3.3.5 Negative hypergeometric distributions
+ 01/06/2020 - 3.3.5 Multivariate hypergeometric distribution
+ 01/20/2020 - 3.3.5 Multivariate t distribution
+ 02/10/2020 - 3.3.1 Multiway ANOVA
+ 02/24/2020 - 3.3.1 Nested ANOVA
+ 03/09/2020 - 3.3.1 ANCOVA
+ 03/30/2020 - 3.3.5 Mixture distributions
+ 04/06/2020 - 3.3.2 Alexander-Govern test
+ 04/13/2020 - 3.3.2 Somer's D test
+ 04/20/2020 - 3.3.2 Kendall's tau-c L-test
+ 04/27/2020 - 3.3.2 Page's L-test
+ 05/04/2020 - 3.3.2 Tukey-Kramer test
+ 06/08/2020 - 3.3.3 Confidence intervals
+ 06/29/2020 - 3.3.3 One-sided p-values
+ 07/13/2020 - 3.3.3 Enhanced Fisher's exact test
+ 07/27/2020 - 3.3.4 Use analytical formulas for fitting
+ 08/17/2020 - 3.3.4 Confidence intervals for fit parameters
+ 09/07/2020 - 3.3.4 Fit censored data
+ 09/21/2020 - 3.3.4 Method of moments
+ 10/12/2020 - 3.3.4 Method of max. product spacing
+ 11/09/2020 - 3.3.5 Mixture distributions
+ 11/23/2020 - 3.3.6 Improve CDF and PDF calculations
+
+In any time remaining, we will continue to support other developers and
+work on integrative tutorials (2.1).
+
+The other deliverable for the project is the coding sprint with the WISH group
+at Cal Poly (activity 3.3.7 in the proposal).  The sprint will take place in November;
+the exact date will be arranged in September in conjunction with the club's leadership.

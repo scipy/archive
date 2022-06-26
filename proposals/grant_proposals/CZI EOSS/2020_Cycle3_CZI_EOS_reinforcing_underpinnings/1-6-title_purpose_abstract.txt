@@ -1,0 +1,59 @@
+1. Proposal Title: Reinforcing SciPy's Underpinnings: Code, Documentation, and Community
+
+2. Did you previously apply for funding for this or a related proposal under the CZI EOSS program?
+Yes, Cycle 1: EOSS-0000000432
+
+3. Have you previously received funding for this proposal under the CZI EOSS program?
+Yes, Cycle 1: EOSS-0000000432
+
+a. Progress Report: Provide a short summary of progress towards the deliverables in your currently funded proposal.
+
+Expand tools for the analysis of variance:
+* Initial PR (gh-12630) has been drafted.
+
+New statistical tests:
+* Kendall's tau-c completed (gh-9361)
+* Page's L (gh-12531) and Somers' D (gh-12653) tests are in review.
+
+Improve Existing Tests:
+PRs adding the following are in review.
+* one-sided alternatives for t-tests (gh-12597) and Pearson's R (gh-12609)
+* confidence intervals for Pearson's R (gh-12609), the binomial test (gh-12603), Fisher's exact test (gh-12288), and one-way ANOVA (gh-12630)
+* conditional maximum likelihood odds ratio for Fisher's exact test (gh-12288)
+
+Fitting Probability Distributions:
+* A PR for the method of moments (gh-11695) is in review.
+* Added analytical maximum likelihood estimates for the Laplace (gh-11988) and Pareto (gh-12457) distributions.
+* PRs for the Rayleigh (gh-12097) and Inverse Gaussian (gh-12514) distributions are in review.
+
+New Probability Distributions:
+* Completed the negative hypergeometric distribution (gh-12170)
+* A PR for the multivariate hypergeometric distribution (gh-12585) is in review.
+
+Improve Underlying Code for PDF and CDF Calculations:
+Nicholas McKibben has joined the project to wrap PDF and CDF calculations from Boost; he is currently working on the noncentral chi-squared distribution.
+
+Support Other Developers:
+Together, we have contributed to more than 240 issues that have closed since the project began.
+
+Outreach Event:
+Due to the pandemic, we will no longer be hosting the in-person event proposed in Cycle 1, but we will have a virtual mentored sprint for diverse beginners in the fall.
+
+4. Proposal Purpose
+Limit to one sentence (maximum of 255 characters, including spaces)
+To better serve biomedical applications, SciPy will enhance its large-scale optimization and linear algebra support, add essential statistics capabilities, improve developer documentation, maintain current features, and strengthen community engagement.
+
+5. Amount Requested - Enter total budget amount requested in USD, including indirect costs; this number should be between $50k and $250k total costs and match total described in the Budget Description. Enter whole numbers only (no dollar signs, commas, or cents)
+249637
+
+6. Abstract - Provide a short summary of the application (maximum of 250 words)
+
+SciPy is a Python library that provides fundamental building blocks for modeling and solving scientific problems. It is used worldwide for biomedical research and serves as a foundation for other essential open source tools. Developed almost entirely by volunteers for its two-decade history, a few gaps have surfaced that we will address with this project. We will:
+* enhance SciPy's support for large-scale optimization and linear algebra;
+* add essential methods for fitting statistical distributions to data; 
+* improve the developer documentation to preserve hard-earned wisdom of seasoned maintainers;
+* hold monthly meetings to make decisions on longstanding issues, support new contributors, and engage with the SciPy community;
+* host "office hours" to provide technical support to SciPy users; 
+* forge connections with users and other projects by offering tutorials, hosting sprints, and delivering talks; and
+* reinforce SciPy's foundations by addressing its oldest issues and pull requests.
+This project will leave SciPy strong and prepared for another twenty years of volunteer driven development.

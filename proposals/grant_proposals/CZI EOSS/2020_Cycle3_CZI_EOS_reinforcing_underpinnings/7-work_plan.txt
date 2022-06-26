@@ -1,0 +1,44 @@
+7. Work Plan (required):
+
+Provide a description of the proposed work the applicants are requesting funding for, including resources the applicants will provide that are not part of the requested funding. For software development related work (e.g., engineering, product design, user research), specify how the work fits into the existing software project roadmap. For community outreach related activities (e.g., sprints, training), specify how these activities will be organized, the target audience, and expected outcomes (maximum of 750 words)
+
+---
+We request support for the following five work components.
+
+1. New Features in Statistics
+Building on the work of our Cycle 1 grant, we will continue to address SciPy's top-level roadmap item "Improve the options for fitting a probability distribution to data". For continuous distributions, we will add the maximum product spacing method and the method of L-moments, and for discrete distributions, we will add maximum likelihood estimates.
+
+2. Improved Support for Large, Sparse Problems
+The roadmap calls for enhanced capabilities for large, sparse problems, especially matrix decomposition and large-scale optimization. To address this:
+* We will add custom sparse Cholesky and QR decomposition routines to SciPy. 
+* We will wrap the BSD-licensed singular value decomposition library PROPACK [1] and include it with SciPy.
+* Although their copyleft licenses are incompatible for distribution within SciPy, we (can and) will add interfaces to IPOPT [2] for large-scale nonlinear programming, CLP/CBC [2] for mixed integer linear programming, and SuiteSparse's sparse matrix factorization routines [3]. 
+* Existing wrappers for IPOPT [4] and SuiteSparse [5-7] are currently difficult or impossible to install on Windows machines. We will ensure that all of these features are easily accessible on all major platforms.
+* We will benchmark the performance of SciPy's large-scale matrix decomposition and optimization features against Matlab to demonstrate that SciPy is a competitive alternative to other popular numerical computing libraries.
+
+3. Developer Documentation
+SciPy already has a relatively mature, carefully organized contributor guide that welcomes prospective developers, helps them decide among the many avenues of participation, and provides detailed instructions for getting started. What the developer documentation lacks is technical details needed by long-term contributors, e.g. policies for maintaining backwards compatibility, deprecating functions, and adhering to SciPy-specific code style conventions. We ask for support to commit these ideas, currently locked in the minds of a few seasoned maintainers, to our public documentation to ensure that this important information is never lost.
+
+4. Community Engagement
+Monthly Community Meetings - Recently, conferences have been SciPy's only opportunity for real-time community engagement, and even for synchronous developer interaction. Following NumPy's lead, we will remedy this by hosting 60-minute SciPy community meetings monthly, varying days and times to make them more accessible to users and contributors around the globe. The applicants will organize the meetings by soliciting discussion topics from the community on the general mailing list, distributing the agenda, and posting meeting minutes. Example activities include discussion of open issues, especially those labeled "needs-decision" on GitHub; presentations by pull request contributors to attract feedback and reviewers; and suggestions from users about how to improve SciPy. Besides providing a designated time for making community decisions, these meetings will encourage users and contributors to interact with the core development team.
+Office Hours - SciPy's GitHub issues are primarily for bug reports and feature requests; for user support, the main option is stackoverflow.com. To provide a more direct link between SciPy learners and experts, the applicants will organize SciPy "Office Hours", modeled after Amazon Alexa Office Hours [8], during summer 2021. Each week, we will arrange for a SciPy expert to host a live stream on Twitch focused on answering questions from users. The applicants will act as moderators, presenting selected questions to the host for live video response and answering the rest in writing.
+Sprints, Tutorials, and Talks - Funded by this grant, we will host sprints, tutorials, and talks at SciPy 2021, PyData LA 2021, and PyData NYC 2021 to support users and reinforce the relationships between SciPy and the greater open source scientific software community.
+
+5. General Maintenance
+The SciPy repository has ~1500 open PRs and issues. The large number is not necessarily a bad sign, as it is representative of the project's popularity and community engagement. On the other hand, nearly 1000 of these are over a year old, and the number grows each year. To reduce this backlog, approximately one third of our effort will be dedicated to project maintenance.
+
+The applicants will provide all required resources (e.g. computers, reference materials).
+
+References
+
+[1] http://sun.stanford.edu/~rmunk/PROPACK/
+[2] https://github.com/coin-or/COIN-OR-OptimizationSuite
+[3] http://faculty.cse.tamu.edu/davis/suitesparse.html
+[4] https://pypi.org/project/pyipopt/
+[5] https://pypi.org/project/scikit-umfpack/
+[6] https://pypi.org/project/scikit-sparse/
+[7] https://pypi.org/project/sparseqr/
+[8] https://www.twitch.tv/amazonalexa
+
+---
+682 Words

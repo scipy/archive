@@ -1,0 +1,13 @@
+9. Existing Support (required): List current and recent financial or in-kind support for the software project(s), including duration, amount in USD, and source of funding. Include in this section any previous funding for these software projects received from CZI (maximum of 250 words)
+
+SciPy was awarded $200k in CZI EOSS Cycle 1 for the project "A Solid Foundation for Statistics in Python with SciPy" (EOSS-0000000432). 
+
+SciPy has received several Small Development Grants from NumFOCUS:
+Improving Boundary Handling and Data Type Support in scipy.ndimage - $5000
+Enhanced LAPACK Support in SciPy - $4978 - 2019
+Complete the SciPy Special Functions Documentation - $2500 - 2019
+SciPy Development Documentation Overhaul - $4274 - 2019
+An Efficient, High-Level Implementation of Linear Programming - $2000 - 2018
+Maturing a Sparse Array Implementation for SciPy - $3000 - 2018
+
+SciPy has received $2500 per month from Tidelift since June 2019. This funding is slated for work not proposed here, such as a redesign of the SciPy website.

@@ -1,0 +1,14 @@
+11. Diversity, Equity, and Inclusion Statement (required):
+Advancing DEI is a core value 
+https://chanzuckerberg.com/about/our-approach/dei/
+for CZI and we are requesting information on your efforts in this area. Describe any efforts the software project(s) named in this proposal have undertaken to increase diversity, equity, and inclusion with respect to their contributors and audience. Please see examples
+https://apply.chanzuckerberg.com/protected/resource/eyJoZnJlIjogOTQ1ODEyNDksICJ2cSI6IDEzOTQ5OH0/
+from successful first cycle applications (maximum of 250 words) 
+
+As an open source project, anyone and everyone is welcome to contribute to SciPy. Accordingly, the SciPy project adopted the following diversity statement in its Code of Conduct shortly before the release of SciPy 1.0 in late 2017:
+
+  "The SciPy project welcomes and encourages participation by everyone. We are committed to being a community that everyone enjoys being part of. Although we may not always be able to accommodate each individual’s preferences, we try our best to treat everyone kindly.
+
+  No matter how you identify yourself or how others perceive you: we welcome you. Though no list can hope to be comprehensive, we explicitly honour diversity in: age, culture, ethnicity, genotype, gender identity or expression, language, national origin, neurotype, phenotype, political beliefs, profession, race, religion, sexual orientation, socioeconomic status, subculture and technical ability, to the extent that these do not conflict with this code of conduct."
+
+We are using the CZI EOSS opportunities to actively increase the diversity of our community. Due to the pandemic, we will no longer be hosting the in-person event proposed in Cycle 1, but instead we will have a virtual event with the Cal Poly clubs "CS for Social Good" and "Color Coded". In this cycle, our community meetings, office hours, and conference participation will make SciPy use and development more accessible to everyone.

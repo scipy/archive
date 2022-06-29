@@ -1,0 +1,6 @@
+Proposal Purpose
+The proposed project will improve the SciPy library's statistics functionality to better serve biomedical research and downstream projects; an outreach component will engage female students, inspiring them to participate in open source code development.
+
+Abstract
+SciPy is a Python library that provides fundamental building blocks for
+modeling and solving scientific problems. Its statistics subpackage is used worldwide for biomedical research and serves as a foundation for other essential open source tools. Based on our study of biostatistics texts and the syllabi of biostatistics courses, we propose the following work to solidify the foundations for statistics in Python: expand tools for analysis of variance, implement new statistical tests, improve existing tests, enhance the ability to fit probability distributions to data, add new probability distributions, and revise the underlying code for probability density and cumulative distribution functions. In addition, we propose an outreach effort to engage young women in the research, introducing them to open source code development and inspiring them to contribute to SciPy and other projects.

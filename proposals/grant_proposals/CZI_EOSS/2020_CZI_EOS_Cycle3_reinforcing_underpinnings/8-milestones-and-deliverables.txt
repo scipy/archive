@@ -1,0 +1,44 @@
+List expected milestones and deliverables, and their expected timeline. Be specific and include (where possible) any goals for metrics the software project(s) are expected to reach upon completion of the grant (maximum of 500 words)
+
+---
+
+Dates assume a project start of Jan 1, 2021. PRs will be developed during the months indicated; all except Sparse QR allow sufficient time for subsequent review and merge before the end of the project.
+
+1. We allocate two months to implement each of the new statistics features.
+Feb-Mar: maximum product spacing
+Apr-May: method of L-moments
+Jun-Jul: maximum likelihood estimates for discrete distributions
+  
+2. After completing the statistics features, Dr. Weckesser will lead the effort to wrap PROPACK [1] (Aug-Oct) for sparse singular value decomposition. Concurrently, the rest of the team will develop the following features.
+Jan-Mar: Add branch-and-bound to SciPy's linear programming solvers; add SciPy interface to CLP/CBC [2] via CyLP [3].
+Apr-Jun: Add SciPy interface to IPOPT [2] via cyipopt [4]; add Windows support.
+Jul-Aug: Improve SciPy interface to UMFPACK [5] via scikit-umfpack [6]; add Windows support.
+Sep-Oct: Include sparse Cholesky in SciPy; add CHOLMOD [5] interface via scikit-sparse [7]; add Windows support.
+Nov-Dec: Include sparse QR in SciPy; add SPQR [5] interface via sparseqr [8]; add Windows support.
+Support for these features in the SciPy ecosystem is currently fragmented. When we are done, the SciPy library will have built-in capabilities for these problems and interfaces to more effective GPL-licensed solvers, all easily accessible on Windows, Mac, and Linux.
+
+3. We will prepare the following developer documentation within the first three months of the project:
+  * API standard for handling NAN (not-a-number) values
+  * Policies for maintaining backwards compatibility and for deprecating functions
+  * Specifications for implementing new probability distributions
+  * SciPy-specific coding style and documentation standards
+
+4. Our first monthly SciPy community meeting will be in late January 2021. We will begin to invite discussion topic submission on the general SciPy mailing list two weeks before the meeting, distribute the agenda three days before the meeting, and post the minutes on the SciPy website within 24 hours of the meeting. By the end of the project, we will have hosted at least 11 of these meetings.
+Twelve office hours will be hosted in Summer 2021. If they attract, on average, at least five users (other than SciPy core developers), we will continue to host them without funding.
+SciPy 2021 is scheduled July 12-18. Assuming the conference will be similar to previous years, we will apply to host a SciPy tutorial, deliver a talk during a tools plenary session, and recruit both new and experienced open source developers to work with us during the sprints. PyData 2021 event details have not been announced, but we intend to participate in a similar way.
+
+5. Throughout the year, the applicants will devote 33% of their project time to SciPy maintenance, including responding to issues and reviewing PRs.  In addition to handling new issues, our goal is to resolve 200 old issues and PRs by the end of the year, where "old" means created before 1/1/2020.
+
+References
+
+[1] http://sun.stanford.edu/~rmunk/PROPACK/
+[2] https://github.com/coin-or/COIN-OR-OptimizationSuite
+[3] https://github.com/coin-or/CyLP
+[4] https://github.com/matthias-k/cyipopt
+[5] http://faculty.cse.tamu.edu/davis/suitesparse.html
+[6] https://github.com/scikit-umfpack/scikit-umfpack
+[7] https://github.com/scikit-sparse/scikit-sparse/
+[8] https://github.com/yig/PySPQR
+
+---
+497 words

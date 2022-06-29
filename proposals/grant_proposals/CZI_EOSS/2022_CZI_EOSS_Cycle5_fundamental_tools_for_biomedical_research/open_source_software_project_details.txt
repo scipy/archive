@@ -1,0 +1,95 @@
+How many software projects involved in your proposal (up to five)? If multiple software projects are involved, details must be entered for all of them where indicated below.: 1
+
+SOFTWARE PROJECT #1: Details:
+
+Software Project name (required)
+SciPy
+
+Main code repository (e.g. GitHub URL) (required)
+https://github.com/scipy/scipy 
+
+Homepage URL (required)
+https://www.scipy.org/
+
+Social media handles (if applicable)
+@SciPy_team
+
+Do you or software project key personnel have commit rights to the code repositories for this software project? (required)
+Yes
+
+Short description of software project (200 words maximum) (required)
+SciPy is a library of numerical routines for the Python programming language that provides fundamental building blocks for modeling and solving scientific problems. SciPy includes algorithms for optimization, statistical analysis, integration, interpolation, eigenvalue problems, differential equations, fast Fourier transforms and many other classes of problems; it also provides specialized data structures, such as sparse matrices and k-dimensional trees.
+
+SciPy is built on top of NumPy, which provides array data structures and related fast numerical routines, and SciPy is itself the foundation on which higher level scientific libraries, including scikit-learn and scikit-image, are built.
+
+Key Personnel:
+Key personnel are people involved in the software project who will be supported by the grant if the application is successful. 
+First name, Last name, Email address, Current employer/Affiliation, Job title, Developer username if applicable (e.g., GitHub handle), Country of Residence	
+Matt, Haberland, mhaberla@calpoly.edu, California Polytechnic State University, Assistant Professor, GH: mdhaber, USA
+Pamphile, Roy, roy.pamphile@gmail.com, Quansight, Software Engineer, GH: tupui, Austria
+
+1. SOFTWARE PROJECT #1 : What is the software project license?
+Permissive license (e.g. BSD 3-Clause, MIT, Apache 2.0)
+
+2. SOFTWARE PROJECT #1 : What is the main programming language?
+Python
+
+3. SOFTWARE PROJECT #1: Does the software project have a code of conduct?
+http://scipy.github.io/devdocs/dev/conduct/code_of_conduct.html
+
+4. SOFTWARE PROJECT #1: Does the software project have end-user documentation?
+http://scipy.github.io/devdocs/index.html
+
+5. SOFTWARE PROJECT #1: Does the software project have an issue tracker?
+https://github.com/scipy/scipy/issues
+
+6. SOFTWARE PROJECT #1: Does the software project have a community engagement / Q&A forum (self-hosted, on Stack Exchange etc.)?
+Yes - https://stackoverflow.com/questions/tagged/scipy
+
+7. SOFTWARE PROJECT #1: Does the software project have contribution / coding guidelines?
+Yes - http://scipy.github.io/devdocs/dev/hacking.html
+
+8. SOFTWARE PROJECT #1: Is there a corresponding package available in a package manager (PyPi, CRAN, etc.)?
+Yes - https://pypi.org/project/scipy/, https://anaconda.org/anaconda/scipy
+
+9. SOFTWARE PROJECT #1: Does the software project support continuous integration for testing?
+An extensive test suite is run on each pull request, using several Python versions (3.8-3.10), several operating systems (Windows, Mac, Linux), and on both 32- and 64-bit architectures.
+
+SOFTWARE PROJECT #1: Metrics - Impact (optional):
+SOFTWARE PROJECT #1: Complete the following table. List the number and explanation for
+each, if needed:
+
+Scholarly paper(s) (including preprints) citing or mentioning the software project
+10000
+As of 5/12/2022:
+10007+ citations of our 2020 Nature Methods paper:
+nature.com/articles/s41592-019-0686-2/metrics
+Source:
+https://scholar.google.com/scholar?cites=13879940319533982630
+
+Monthly users, if applicable(based on one or more of the following: monthly downloads from websites, monthly downloads from package managers, monthly unique requests for updates, etc.)
+5000000
+Our estimate of monthly users is based on the number of monthly downloads from package managers.
+According to Conda Package Download Data (https://github.com/ContinuumIO/anaconda-package-data, the number of SciPy downloads from the "anaconda" and "conda- forge" channels of conda was 2,057,703 in April, 2022.
+According to https://pypistats.org/packages/sci py, there were 42,896,170 downloads from PyPI for the month prior to 5/13/2022
+
+Software projects that depend on the project
+19373
+As of 5/12/2022:
+19,373 dependent packages and 487,437 dependent repositories on GitHub.
+Source:
+https://github.com/scipy/scipy/network/dependents?dependent_type=PACKAGE
+
+Monthly visitors to project’s website, discussion forum (e.g. Stack Overflow)
+80000
+As of 5/13/2022:
+80k unique visitors to scipy.org in the last 30 days according to our analytics system (plausible.io).
+30,908 unique visitors to our GitHub repo in the last two weeks according to https://github.com/scipy/scipy/graphs/traffic.
+1.3M visits to scipy.org in March according to similarweb (https://www.similarweb.com/website/scipy.org/).
+
+2. SOFTWARE PROJECT #1: List of software projects to which key personnel on this proposal are contributing.
+SciPy (https://github.com/scipy/scipy)
+statsmodels (https://github.com/statsmodels/statsmodels)
+pydata (https://github.com/pydata)
+Scientific Python (https://github.com/scientific-python)
+NumPy (https://github.com/numpy/numpy)
